@@ -11,18 +11,18 @@ class Config
   static $MobileUrl;
   static $JavaScriptUrl;
   static $TestUrls = array(
-    "SessionTokenRequestUrl" => "https://apiuat.test.evopaymentgateway.com//token",
-    "PaymentOperationActionUrl" => "https://apiuat.test.evopaymentgateway.com//payments",
-    "JavaScriptUrl" => "https://cashierui-apiuat.test.evopaymentgateway.com//js/api.js",
-    "BaseUrl" => "https://cashierui-apiuat.test.evopaymentgateway.com//ui/cashier",
-    "MobileUrl" => "https://cashierui-apiqa.test.evopaymentgateway.com/react-frontend/index.html",
+    "SessionTokenRequestUrl" => "https://apiuat.test.intelligent-payments.com/token",
+    "PaymentOperationActionUrl" => "https://apiuat.test.intelligent-payments.com/payments",
+    "JavaScriptUrl" => "https://cashierui-apiuat.test.intelligent-payments.com/js/api.js",
+    "BaseUrl" => "https://cashierui-apiuat.test.intelligent-payments.com/ui/cashier",
+    "MobileUrl" => "https://cashierui-apiqa.test.myriadpayments.com/react-frontend/index.html",
   );
   static $ProductionUrls = array(
-    "SessionTokenRequestUrl" => "https://api.evopaymentgateway.com//token",
-    "PaymentOperationActionUrl" => "https://api.evopaymentgateway.com//payments",
-    "JavaScriptUrl" => "https://cashierui-api.evopaymentgateway.com//js/api.js",
-    "BaseUrl" => "https://cashierui-api.evopaymentgateway.com//ui/cashier",
-    "MobileUrl" => "https://cashierui-api.evopaymentgateway.com//react-frontend/index.html",
+    "SessionTokenRequestUrl" => "https://api.intelligent-payments.com/token",
+    "PaymentOperationActionUrl" => "https://api.intelligent-payments.com/payments",
+    "JavaScriptUrl" => "https://cashierui-api.intelligent-payments.com/js/api.js",
+    "BaseUrl" => "https://cashierui-api.intelligent-payments.com/ui/cashier",
+    "MobileUrl" => "https://cashierui-apiqa.test.myriadpayments.com/react-frontend/index.html",
   );
   static $Protocol = "https";
   static $Method = "POST";
